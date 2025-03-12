@@ -1,4 +1,6 @@
+using System;
 using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +14,17 @@ public class FMODAmbience : MonoBehaviour {
     }
 
     public void UpdateAmbParams() {
-        amb.setParameterByName("ambController", hpSlider.value);
+        amb.setParameterByName("playerHP", hpSlider.value);
+        int bird = Convert.ToInt32(hpSlider.value >= 40);
+        print(bird);
+        amb.setParameterByName("birdAmb", bird);
     }
+    
+#if(UNITY_EDITOR)
+    private void Update() {
+        if (Input.GetKeyDown(KeyCode.C)) {
+            amb.setTimelinePosition(83000);
+        }
+    }
+#endif
 }

@@ -14,7 +14,7 @@ public class FMODSteps : MonoBehaviour {
 
         EventInstance eventInstance = AudioManager.instance.CreateInstance(FMODEvents.instance.steps, gameObject, GetComponent<Rigidbody2D>());
         eventInstance.setParameterByName("surface", CheckSurface());
-        eventInstance.setParameterByName("ambController", hpSlider.value);
+        eventInstance.setParameterByName("playerHP", hpSlider.value);
         eventInstance.start(); 
         eventInstance.release();
         lastTimePlayed = Time.time;

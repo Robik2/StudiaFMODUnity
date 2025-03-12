@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{477d7f48-967f-4960-8b2b-0900656b61b6}">
+		<property name="name">
+			<value>birdAmb</value>
+		</property>
+		<relationship name="folder">
+			<destination>{975c6595-7579-4114-b95d-02b7261bcc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ae9f8840-4418-45d1-a6b4-faf0e28172c0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ae9f8840-4418-45d1-a6b4-faf0e28172c0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a7a06c03-f802-4e1e-93d8-17f00546b76c}">
+		<property name="assetPath">
+			<value>Amb/62 Dark forest.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>93.335510204081629</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{20b8fb52-2a80-4b9b-b8c7-251c2c27cb9f}</destination>
+		</relationship>
+	</object>
+</objects>

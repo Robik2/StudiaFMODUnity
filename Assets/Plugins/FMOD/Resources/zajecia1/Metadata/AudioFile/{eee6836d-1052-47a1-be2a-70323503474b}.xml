@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{eee6836d-1052-47a1-be2a-70323503474b}">
+		<property name="assetPath">
+			<value>Footsteps/Stone/Foot_stone_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.32470833333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{20b8fb52-2a80-4b9b-b8c7-251c2c27cb9f}</destination>
+		</relationship>
+	</object>
+</objects>
